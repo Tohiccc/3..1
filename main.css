@@ -1,0 +1,233 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.header{
+    background-color: #fff;
+    padding: 50px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.container{
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: 300px
+}
+
+#lang{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 36px; 
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.hero{
+    background-image: url("./images/bg.jpg");
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 650px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.hero_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offerta{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.hero_bottom{
+    display: flex;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0E0D5D;
+}
+
+.qale{
+  display: flex;
+  align-items: center;   
+  justify-content: center;
+  align-items: center;
+  width: 533px;
+  height: 70px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  justify-content: space-between;
+  gap: 40px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.textbox{
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.textbox2{
+  color: rgb(117, 117, 117);
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.zor{
+    width: 450px;
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background: rgb(250, 250, 250);
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+  .zor2{
+    
+        display: flex;
+        align-items: center;   
+        justify-content: center;
+        height: 70px;
+        width: 530px; 
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        color: rgba(117, 117, 117, 0.7);
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .textbox:hover{
+        background-color: #0000ff;
+        color: #ffffff;
+    }
+
+    .zor2:hover{
+        background-color: #ff0000;
+        color: #ffffff;
+    }
+
+    .zor_list{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .zor_img{
+        align-items: center;   
+        justify-content: center;  
+        height: 70px;
+        width: 530px;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        color: rgba(117, 117, 117, 0.7);
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+        background-image: url(./img/Eye.png);
+        background-repeat: no-repeat;
+        background-position:right;
+    }
+
+    .zor_img:hover{
+        background-color:#ffff00;
+        color: #ffffff;
+    }
+
+    .text_2{
+        color: rgba(0, 0, 0, 0.64);
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .zor_link{
+        margin-top: 50px;
+        width: 202px;
+        border-radius: 20px;
+        background-color:  #f69e86;
+        margin-left: 180px;
+    }
+
+    .nm_2{
+        align-items: center;  
+        justify-content: center; 
+        height: 67px;
+        width: 202px; 
+        background-color: #f69e86;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        color: rgba(117, 117, 117, 0.7);
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+    }
